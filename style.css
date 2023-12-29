@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px;
+}
+.container {
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  left: 25%;
+}
+
+.container h2 {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container h2 span {
+  background-color: rgb(255, 255, 255);
+  color: rgb(43, 43, 43);
+  padding-inline: 10px;
+  border-radius: 5px;
+}
+.container button {
+  background-color: transparent;
+  color: rgb(43, 43, 43);
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+}
+
+.container button:active {
+  border: 3px solid black;
+  font-weight: 600;
+}

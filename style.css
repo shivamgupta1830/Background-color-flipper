@@ -18,7 +18,7 @@ nav {
   left: 25%;
 }
 
-.container h2 {
+.container h3 {
   background-color: black;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -26,11 +26,13 @@ nav {
   border-radius: 5px;
 }
 
-.container h2 span {
+.container h3 span {
   background-color: rgb(255, 255, 255);
   color: rgb(43, 43, 43);
-  padding-inline: 10px;
+  padding-inline: 12px;
+  padding-block: 4px;
   border-radius: 5px;
+  font-size: 22px;
 }
 .container button {
   background-color: transparent;

@@ -22,7 +22,7 @@ nav {
   background-color: black;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 20px;
+  padding: 25px;
   border-radius: 5px;
 }
 
@@ -36,11 +36,12 @@ nav {
   background-color: transparent;
   color: rgb(43, 43, 43);
   margin-top: 20px;
-  padding: 15px;
+  padding: 14px;
   border: 1px solid black;
   border-radius: 5px;
   outline: none;
   font-size: 20px;
+  transition: all 0.1s ease-in-out;
 }
 
 .container button:active {
